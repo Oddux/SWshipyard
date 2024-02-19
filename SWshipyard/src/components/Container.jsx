@@ -1,5 +1,5 @@
 import '../styles/Container.css';
-import Cards from './Cards';
+import Card from './Card';
 import useAllShips from '../utils/hooks';
 
 function Container() {
@@ -7,10 +7,14 @@ function Container() {
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error: {error.message}</p>;
     console.log(data);
+    const { allStarships } = data;
 
     return (
         <div>
-            <Cards ships={data} />
+            {allStarships.starships.map((ship) => (
+                <Card key={ship.id}
+                ship={ship} />
+            ))}
         </div>
     );
 }
