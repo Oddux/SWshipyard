@@ -26,4 +26,5 @@ Launch the site to access functionality.
 ## Credits
 1. Much of the code from Module 21 assignment- EdX
 2. Vite boilerplate
-3. [Star Wars API](https://swapi.dev/)
+3. GitHub Co-pilot VScode extension
+4. [Star Wars API](https://swapi.dev/)
