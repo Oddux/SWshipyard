@@ -3,7 +3,7 @@ import '../styles/Card.css';
 const Card = (props) => {
     const { ship } = props;
     return (
-        <div>
+        <div className="card">
             <h3>{ship.model}</h3>
             <ul>
                 <li>Starship Class: {ship.starshipClass}</li>

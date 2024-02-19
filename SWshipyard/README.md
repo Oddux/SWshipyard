@@ -24,7 +24,8 @@ Launch the site to access functionality.
 [Repository](https://github.com/Oddux/SWshipyard)
 
 ## Credits
-1. Much of the code from Module 21 assignment- EdX
+1. Some code from Module 20 and 21, EdX
 2. Vite boilerplate
 3. GitHub Co-pilot VScode extension
 4. [Star Wars API](https://swapi.dev/)
+5. My buddy Jeff

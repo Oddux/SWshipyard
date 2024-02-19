@@ -10,7 +10,7 @@ function Container() {
     const { allStarships } = data;
 
     return (
-        <div>
+        <div className="container">
             {allStarships.starships.map((ship) => (
                 <Card key={ship.id}
                 ship={ship} />
