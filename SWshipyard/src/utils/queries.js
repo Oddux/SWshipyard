@@ -14,7 +14,6 @@ query getAllShips {
           maxAtmospheringSpeed
           MGLT
           hyperdriveRating
-          costInCredits
           consumables
           cargoCapacity
           length
